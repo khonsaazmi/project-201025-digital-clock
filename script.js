@@ -8,7 +8,7 @@ function updateClock() {
     hours = hours.toString().padStart(2, '0'); // 01-12
     const minutes = now.getMinutes().toString().padStart(2, '0'); // 00-59
     const seconds = now.getSeconds().toString().padStart(2, '0'); // 00-59
-    const timeString = `${hours}:${minutes}:${seconds}:${meridiem}`;
+    const timeString = `${hours}:${minutes}:${seconds} ${meridiem}`;
     document.getElementById('clock').textContent = timeString;
 }
 
