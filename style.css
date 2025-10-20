@@ -7,11 +7,19 @@ body {
     margin: 0; /* Remove default margin */
 }
 
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
 #clock-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 #clock {
